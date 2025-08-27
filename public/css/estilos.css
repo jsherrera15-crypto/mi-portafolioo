@@ -7,3 +7,20 @@
   --fuente-principal: "Arial", sans-serif;
   --ancho-maximo: 900px;
 }
+body{
+    font-family: var(--fuente-principal);
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+header{
+  text-align: center;
+  background: var(--color-secundario);
+  color: var(--color-blanco);
+  padding: 20px;
+  border-radius: 12px;
+}
